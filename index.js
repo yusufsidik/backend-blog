@@ -5,7 +5,7 @@ import postRouter from "./routes/post.route.js"
 import commentRouter from "./routes/comment.route.js"
 
 const app = express()
-const connect = connectDB()
+connectDB()
 
 // app.get("/test", (req, res) => {
 //   res.status(200).send("it works")
